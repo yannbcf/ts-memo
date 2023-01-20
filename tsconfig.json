@@ -1,0 +1,30 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "strict": true,
+        "noEmit": true,
+        // "rootDir": "src",
+        "target": "ESNext",
+        "module": "ESNext",
+        "skipLibCheck": false,
+        "moduleResolution": "Node",
+        "outDir": "./dist",
+        "typeRoots": ["node_modules/altv-esbuild/altv-enums/types", "node_modules/@altv", "node_modules/@types"],
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitOverride": true,
+        "noUnusedParameters": true,
+        "noErrorTruncation": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "baseUrl": "src",
+        "paths": {
+            "core/*": ["core/*"],
+            "modules/*": ["modules/*"],
+            "realm/*": ["realm/*"],
+        }
+    }
+}
