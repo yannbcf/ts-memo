@@ -10,7 +10,15 @@ You can use it in different ways:
 -   TODO: ~~Memoize a `get` class accessor~~,
 -   TODO: ~~Memoize a class method which varies based on some combination of parameters~~
 
+## state -> **alpha**
+
+-   [x] First implementation
+-   [ ] Deployment
+-   [ ] Unit tests
+
 ## Installation (todo)
+
+> Not yet available
 
 npm
 
@@ -23,12 +31,6 @@ pnpm
 ```
 pnpm add --save @yannbcf/ts-memo
 ```
-
-## state -> **alpha**
-
--   [x] First implementation
--   [ ] Deployment
--   [ ] Unit tests
 
 # How does it work ?
 
