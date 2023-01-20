@@ -115,7 +115,7 @@ class Test {
 }
 ```
 
-## Fuctions usage
+## Functions usage
 
 ```ts
 import {
